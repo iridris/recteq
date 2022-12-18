@@ -46,8 +46,7 @@ class RecteqFlowHandler(config_entries.ConfigFlow):
                 self._errors[CONF_IP_ADDRESS] = STR_INVALID_PREFIX + CONF_IP_ADDRESS
 
             user_input[CONF_DEVICE_ID] = user_input[CONF_DEVICE_ID].replace(" ", " ")
-            if (len(user_input[CONF_DEVICE_ID]) != LEN_DEVICE_ID or
-                    not all(c in string.hexdigits for c in user_input[CONF_DEVICE_ID])):
+            if (len(user_input[CONF_DEVICE_ID]) != LEN_DEVICE_ID):
                 self._errors[CONF_DEVICE_ID] = STR_INVALID_PREFIX + CONF_DEVICE_ID
 
             user_input[CONF_LOCAL_KEY] = user_input[CONF_LOCAL_KEY].replace(" ", " ")
