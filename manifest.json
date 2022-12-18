@@ -8,7 +8,7 @@
   "after_dependencies": [],
   "codeowners": ["@pdugas"],
   "requirements": [
-    "pytuya==7.0.5",
+    "tinytuya==1.9.1",
     "integrationhelper",
     "voluptuous"
   ],
