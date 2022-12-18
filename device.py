@@ -1,7 +1,7 @@
 """The Recteq integration."""
 
 import logging
-import pytuya
+import tinytuya
 import async_timeout
 
 from datetime import timedelta
@@ -47,7 +47,7 @@ class RecteqDevice(update_coordinator.DataUpdateCoordinator):
         self._force_fahrenheit = entry.options.get(CONF_FORCE_FAHRENHEIT, False)
         _LOGGER.debug("force_fahrenheit is {}".format(self._force_fahrenheit))
 
-        self._pytuya = pytuya.OutletDevice(self._device_id, self._ip_address, self._local_key)
+        self._pytuya = tinytuya.OutletDevice(self._device_id, self._ip_address, self._local_key)
         self._pytuya.set_version(float(self._protocol))
 
         self._cached_status = None
