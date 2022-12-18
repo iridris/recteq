@@ -16,10 +16,10 @@ DOMAIN = 'recteq'
 PLATFORMS = ['climate', 'sensor']
 
 DPS_POWER  = '1'
-DPS_TARGET = '102'
-DPS_ACTUAL = '103'
-DPS_PROBEA = '105'
-DPS_PROBEB = '106'
+DPS_TARGET = '101'
+DPS_ACTUAL = '102'
+DPS_PROBEA = '104'
+DPS_PROBEB = '105'
 
 ATTR_POWER  = 'power'   # read/write
 ATTR_TARGET = 'target'  # read/write
