@@ -9,7 +9,7 @@ VERSION = __version__ = '%d.%d.%d' % VERSION_TUPLE
 
 __author__ = 'Paul Dugas <paul@dugas.cc>'
 
-ISSUE_LINK = 'https://github.com/pdugas/recteq/issues'
+ISSUE_LINK = 'https://github.com/mochman/recteq/issues'
 
 DOMAIN = 'recteq'
 
