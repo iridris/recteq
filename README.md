@@ -6,12 +6,12 @@ Custom integration for [recteq][recteq] grills and smokers providing a climate
 entity to control the unit and sensor entities for the probes.
 
 [![hacs-badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
-[![issue-badge](https://img.shields.io/github/issues/pdugas/recteq)](https://github.com/pdugas/recteq/issues)
-[![pr-badge](https://img.shields.io/github/issues-pr/pdugas/recteq)](https://github.com/pdugas/recteq/issues)
-[![release-badge](https://img.shields.io/github/v/release/pdugas/recteq?sort=semver)](https://github.com/pdugas/recteq/releases/latest)
-[![commit-badge](https://img.shields.io/github/last-commit/pdugas/recteq)](https://github.com/pdugas/recteq/commit/main)
-[![license-badge](https://img.shields.io/github/license/pdugas/recteq)](https://github.com/pdugas/recteq/blob/main/LICENSE)
-[![commits-badge](https://img.shields.io/github/commits-since/pdugas/recteq/latest/main?sort=semver)](https://github.com/pdugas/recteq/commits/main)
+[![issue-badge](https://img.shields.io/github/issues/mochman/recteq)](https://github.com/mochman/recteq/issues)
+[![pr-badge](https://img.shields.io/github/issues-pr/mochman/recteq)](https://github.com/mochman/recteq/issues)
+[![release-badge](https://img.shields.io/github/v/release/mochman/recteq?sort=semver)](https://github.com/mochman/recteq/releases/latest)
+[![commit-badge](https://img.shields.io/github/last-commit/mochman/recteq)](https://github.com/mochman/recteq/commit/main)
+[![license-badge](https://img.shields.io/github/license/mochman/recteq)](https://github.com/mochman/recteq/blob/main/LICENSE)
+[![commits-badge](https://img.shields.io/github/commits-since/mochman/recteq/latest/main?sort=semver)](https://github.com/mochman/recteq/commits/main)
 
 > **NOTE** - This isn't supported or approved by [recteq][recteq] at all!
 
@@ -22,7 +22,7 @@ entity to control the unit and sensor entities for the probes.
 ## Installation
 
 We recommend you install [HACS](https://hacs.xyz/) first, then add
-<https://github.com/pdugas/recteq> as a custom integration repository and
+<https://github.com/mochman/recteq> as a custom integration repository and
 finally, add the integration from there.
 
 Instead, if you prefer the manual route, you could download a copy of the
@@ -47,7 +47,7 @@ You'll get the dialog shown below. Enter the details for your grill and tap
 
 Repeat the process if you have multiple grills to control. _(ps: I'm jealous!)_
 
-See the [wiki](https://github.com/pdugas/recteq/wiki) for info in where to get
+See the [wiki](https://github.com/mochman/recteq/wiki) for info in where to get
 the IP address, device ID and local key values needed.
 
 The "Force Fahrenheit" option was added for folks who operate HA in Celsius but
@@ -162,13 +162,13 @@ sensor:
 
 ## License
 
-Copyright (c) 2020 Paul Dugas
+MIT
 
 See [LICENSE](LICENSE) for details.
 
 ## Support
 
-Submit [issues](https://github.com/pdugas/recteq/issues) for defects, feature
+Submit [issues](https://github.com/mochman/recteq/issues) for defects, feature
 requests or questions. I'll try to help as I can.
 
 I am *very* interested in feedback on this to know whether it's working for
@@ -176,9 +176,9 @@ others.
 
 ## Credits
 
-I'm Paul Dugas, <paul@dugas.cc>. This is my first HA integration so be gentle!
+This is from a forked repo by Paul Dugas, <paul@dugas.cc>.
 
-I learned this was possible from [`SDNick484/rectec_status`][rectec_status] and
+He learned this was possible from [`SDNick484/rectec_status`][rectec_status] and
 based the intial versions of the project on his examples. Much thanks to
 [SDNick](https://github.com/SDNick484/) along with those he credits;
 [codetheweb](https://github.com/codetheweb/),
@@ -189,5 +189,5 @@ tuyapi and python-tuya who have made communicating to Tuya devices possible
 with open source code.
 
 [recteq]: https://www.recteq.com/
-[latest]: https://github.com/pdugas/recteq/releases/latest
+[latest]: https://github.com/mochman/recteq/releases/latest
 [rectec_status]: https://github.com/SDNick484/rectec_status
