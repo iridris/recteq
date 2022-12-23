@@ -145,6 +145,10 @@ sensor:
 * _next_
   * Fix for setting target temp when Force-Fahrenheit enabled
   * Moved force-fahrenheit to options.
+* 0.0.5
+  * Fixed Device Key Length
+  * Fixed Probe Temps
+  * Switched to tintuya for data reading
 * 0.0.4
   * Metric units support
   * Force-Fahrenheit option
