@@ -2,13 +2,13 @@
   "domain": "recteq",
   "name": "Recteq",
   "version": "v0.0.5",
-  "documentation": "https://github.com/mochman/recteq/wiki",
-  "issue_tracker": "https://github.com/mochman/recteq/issues",
+  "documentation": "https://github.com/iridris/recteq/wiki",
+  "issue_tracker": "https://github.com/iridris/recteq/issues",
   "dependencies": [],
   "after_dependencies": [],
-  "codeowners": ["@mochman"],
+  "codeowners": ["@iridris"],
   "requirements": [
-    "tinytuya==1.9.1",
+    "tinytuya==1.12.11",
     "integrationhelper",
     "voluptuous"
   ],
