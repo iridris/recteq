@@ -8,7 +8,7 @@
   "after_dependencies": [],
   "codeowners": ["@iridris"],
   "requirements": [
-    "tinytuya==1.12.11",
+    "tinytuya==1.13.1",
     "integrationhelper",
     "voluptuous"
   ],
