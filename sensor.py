@@ -41,7 +41,7 @@ class RecteqSensor(entity.Entity):
 
     @property
     def available(self):
-        return self._device.available
+        return self._device.available and self._device.is_on
 
     @property
     def state(self):
@@ -49,7 +49,7 @@ class RecteqSensor(entity.Entity):
             return STATE_UNAVAILABLE
 
         value = self._device.dps(self._dps);
-        if value == None:
+        if value == None or value == 0:
             return STATE_UNAVAILABLE
 
         return round(float(self._device.temperature(value)), 1)
